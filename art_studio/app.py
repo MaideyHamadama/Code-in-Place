@@ -26,7 +26,7 @@ class ConsoleArtStudio:
         print("Welcome to Console Art Studio!\n")
         while True:
             self.print_menu()
-            choice = self.prompt_choice("Choose an art mode", 1, 6)
+            choice = self.prompt_choice("Choose an art mode or 7 to exit", 1, 7)
 
             if choice == 1:
                 self.draw_tree()
